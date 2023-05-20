@@ -29,7 +29,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
       <p>added details here</p>
-      <p>This is in the fixtemp</p>
+      <p>iam editing the updatetext branch</p>
     </>
   )
 }
