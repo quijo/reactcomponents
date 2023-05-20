@@ -2,7 +2,7 @@ import React from 'react'
 
 const App = () => {
   return (
-    <div>This is starting file</div>
+    <div>Lesson 1 Clean up</div>
   )
 }
 
