@@ -17,12 +17,13 @@ import Contact from './components/pages/help/Contact'
 
 
 //layouts 
-import RootLayout from './layouts/RootLayout'
-import HelpLayout from './layouts/HelpLayout'
+import RootLayout from './components/layouts/RootLayout'
+import HelpLayout from './components/layouts/HelpLayout'
 
 
 //style
 import './index.css'
+import Notfound from './components/pages/Notfound'
 
 
 const router = createBrowserRouter(
@@ -34,7 +35,9 @@ const router = createBrowserRouter(
           <Route path='faq' element={<Faq />}/>
           <Route path='contact' element={<Contact />} />
       </Route>
+      <Route path='*' element={<Notfound />} />
     </Route>
+
   )
 )
 
