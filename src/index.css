@@ -9,6 +9,10 @@ body {
   padding: 20px;
   font-family: "Poppins";
   background: var(--secondary);
+  
+}
+html{
+  scroll-behavior: smooth;
 }
 * {
   color: #fff;
